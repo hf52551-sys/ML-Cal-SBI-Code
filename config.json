@@ -1,0 +1,38 @@
+{
+ "mode": "sbi",
+ "train": "independent",
+ "R": 30,
+ "nsims": 100000,
+ "npost": 20000,
+ "clf_iter": 1000,
+ "n_clf": 4,
+ "max_epochs": 1000,
+ "patience": 20,
+ "data_seed": 20261113,
+ "pairs": [
+  [
+   3,
+   4
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   5,
+   6
+  ]
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ]
+}
